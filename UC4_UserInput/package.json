@@ -1,5 +1,5 @@
 {
-  "name": "uc3-bridge-labz-site",
+  "name": "uc4-user-input",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:UC3_BridgeLabzSite": "node dist/uc3-bridge-labz-site/server/server.mjs"
+    "serve:ssr:UC4_UserInput": "node dist/uc4-user-input/server/server.mjs"
   },
   "private": true,
   "dependencies": {
