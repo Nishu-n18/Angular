@@ -1,5 +1,5 @@
 {
-  "name": "uc2-bridge-labz-logo",
+  "name": "uc3-bridge-labz-site",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:UC2_BridgeLabzLogo": "node dist/uc2-bridge-labz-logo/server/server.mjs"
+    "serve:ssr:UC3_BridgeLabzSite": "node dist/uc3-bridge-labz-site/server/server.mjs"
   },
   "private": true,
   "dependencies": {
