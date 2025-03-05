@@ -1,5 +1,5 @@
 {
-  "name": "uc4-user-input",
+  "name": "uc5-user-input-event-binding",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:UC4_UserInput": "node dist/uc4-user-input/server/server.mjs"
+    "serve:ssr:UC5_UserInputEventBinding": "node dist/uc5-user-input-event-binding/server/server.mjs"
   },
   "private": true,
   "dependencies": {

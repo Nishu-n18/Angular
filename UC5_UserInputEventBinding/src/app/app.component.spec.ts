@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'UC4_UserInput' title`, () => {
+  it(`should have the 'UC5_UserInputEventBinding' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('UC4_UserInput');
+    expect(app.title).toEqual('UC5_UserInputEventBinding');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, UC4_UserInput');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, UC5_UserInputEventBinding');
   });
 });

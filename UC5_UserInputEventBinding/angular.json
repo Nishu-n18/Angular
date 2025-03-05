@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "UC4_UserInput": {
+    "UC5_UserInputEventBinding": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/uc4-user-input",
+            "outputPath": "dist/uc5-user-input-event-binding",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "UC4_UserInput:build:production"
+              "buildTarget": "UC5_UserInputEventBinding:build:production"
             },
             "development": {
-              "buildTarget": "UC4_UserInput:build:development"
+              "buildTarget": "UC5_UserInputEventBinding:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -105,6 +105,6 @@
     }
   },
   "cli": {
-    "analytics": "bf6ef130-1e1c-4033-b361-0101c286c85c"
+    "analytics": "57b66c2d-689c-4b38-96cb-c53907831c59"
   }
 }
