@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have the 'UC1_HelloWorld' title`, () => {
+  it(`should have the 'UC2_BridgeLabzLogo' title`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('UC1_HelloWorld');
+    expect(app.title).toEqual('UC2_BridgeLabzLogo');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, UC1_HelloWorld');
+    expect(compiled.querySelector('h1')?.textContent).toContain('Hello, UC2_BridgeLabzLogo');
   });
 });
