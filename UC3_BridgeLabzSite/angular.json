@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "UC2_BridgeLabzLogo": {
+    "UC3_BridgeLabzSite": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/uc2-bridge-labz-logo",
+            "outputPath": "dist/uc3-bridge-labz-site",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "UC2_BridgeLabzLogo:build:production"
+              "buildTarget": "UC3_BridgeLabzSite:build:production"
             },
             "development": {
-              "buildTarget": "UC2_BridgeLabzLogo:build:development"
+              "buildTarget": "UC3_BridgeLabzSite:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -105,6 +105,6 @@
     }
   },
   "cli": {
-    "analytics": "293fcb20-ba23-4002-afb0-44c7b1d54996"
+    "analytics": "da3ee264-348c-4a59-80d9-6eb5feed29c6"
   }
 }
